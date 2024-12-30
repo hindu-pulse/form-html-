@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header><h1>THIS IS AN OFFICIAL FORM</h1></header>
+        <h2>PRECAUTIONS!!</h2>
+        <ol>
+            <li>Every entery should be filled</li>
+            <li>Please fill it with patience</li>
+        </ol>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>PERSONAL INFO</legend>
+                <label for="name">NAME:</label>
+                <input type="text" name="name" id="name" required><br><br>
+                <label for="email">EMAIL:</label>
+                <input type="email" name="email" id="email" required><br><br>
+                <label for="phone">PHONE:</label>
+                <input type="tel" name="phone" id="phone" required><br><br>
+                GENDER:
+                <label for="male"> <br>
+                    <input type="checkbox" id="male" name="gender"
+                        value="male">Male
+                </label><br>
+
+                <label for="female">
+                    <input type="checkbox" id="female" name="gender"
+                        value="female"> Female
+                </label><br>
+
+                <label for="non-binary">
+                    <input type="checkbox" id="non-binary" name="gender"
+                        value="non-binary"> Non-Binary
+                </label><br>
+
+                <label for="other">
+                    <input type="checkbox" id="other" name="gender"
+                        value="other"> Other
+                </label><br>
+                <label for="dob">DATE OF BIRTH:</label>
+                <input type="date" name="dob" id="dob" required><br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>ADDRESS</legend>
+                <label for="country">COUNTRY</label>
+                <select name="country" required>
+                    <option value="india">india</option>
+                    <option value="usa">usa</option>
+                    <option value="australia">australia</option>
+                    <option value="china">china</option>
+                    <option value="japan">japan</option>
+                </select>
+                <br><br>
+                <label for="street">STREET:</label>
+                <input type="text" name="street" id="street" required><br><br>
+                <label for="house">HOUSE NO.</label>
+                <input type="text" name="house" id="house" required><br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>SKILL</legend>
+                <label for="skill">SKILL:</label>
+                <textarea name="skill" id="skill"></textarea>
+                <br><br>
+                <label for="experience">EXPERIENCE:</label>
+                <input type="number" name="experience" id="experience" required>
+            </fieldset>
+            <button type="submit">SUBMIT</button>
+        </form>
+        <footer>
+            <footer>
+                <p>Contact Us: <a href="mailto:nandunandinigoyal@gmail.com">nandunandinigoyal@gmail.com</a></p>
+              </footer>
+              
+        </footer>
+    </body>
+</html>
